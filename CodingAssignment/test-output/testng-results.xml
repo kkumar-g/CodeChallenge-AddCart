@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome Opened]]>
+    </line>
+    <line>
+      <![CDATA[*********** Test Started ***************]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating the URL:https://www.amazon.com/]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Entering the Keyword:Headphones to search]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/Beats-Solo3-Wireless-Ear-Headphones/dp/B01LWWY3E2/ref=sr_1_3?keywords=Headphones&qid=1563456144&s=gateway&sr=8-3]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Adding the item cart]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Item has been added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating back to results page]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/OneOdio-Adapter-Free-Headphones-Professional-Telescopic/dp/B01N6ZJH96/ref=sr_1_9?keywords=Headphones&qid=1563456144&s=gateway&sr=8-9]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Adding the item cart]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Item has been added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating back to results page]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_2?ie=UTF8&adId=A03133471DRMLFG6C8OTB&url=%2FOneOdio-Adapter-Free-Headphones-Professional-Telescopic%2Fdp%2FB01N6ZJH96%2Fref%3Dsr_1_22_sspa%3Fkeywords%3DHeadphones%26qid%3D1563456144%26s%3Dgateway%26sr%3D8-22-spons%26psc%3D1&qualifier=1563456144&id=4705377793737568&widgetName=sp_btf]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Adding the item cart]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Item has been added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[INFO:Navigating back to results page]]>
+    </line>
+    <line>
+      <![CDATA[INFO:All the products have been added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[*********** End of the Test ***************]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="72398" started-at="2019-07-18T13:22:08Z" finished-at="2019-07-18T13:23:20Z">
+    <groups>
+    </groups>
+    <test name="Add To Cart Test" duration-ms="72398" started-at="2019-07-18T13:22:08Z" finished-at="2019-07-18T13:23:20Z">
+      <class name="com.amazon.TestCases.Amazon_AddBestSellersToCartTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.amazon.TestCases.Amazon_AddBestSellersToCartTest@47c62251]" name="Setup" is-config="true" duration-ms="10127" started-at="2019-07-18T13:22:08Z" finished-at="2019-07-18T13:22:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="addtoCart()[pri:0, instance:com.amazon.TestCases.Amazon_AddBestSellersToCartTest@47c62251]" name="addtoCart" duration-ms="59122" started-at="2019-07-18T13:22:18Z" finished-at="2019-07-18T13:23:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*********** Test Started ***************]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating the URL:https://www.amazon.com/]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Entering the Keyword:Headphones to search]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/Beats-Solo3-Wireless-Ear-Headphones/dp/B01LWWY3E2/ref=sr_1_3?keywords=Headphones&qid=1563456144&s=gateway&sr=8-3]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Adding the item cart]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Item has been added to cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating back to results page]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/OneOdio-Adapter-Free-Headphones-Professional-Telescopic/dp/B01N6ZJH96/ref=sr_1_9?keywords=Headphones&qid=1563456144&s=gateway&sr=8-9]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Adding the item cart]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Item has been added to cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating back to results page]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_2?ie=UTF8&adId=A03133471DRMLFG6C8OTB&url=%2FOneOdio-Adapter-Free-Headphones-Professional-Telescopic%2Fdp%2FB01N6ZJH96%2Fref%3Dsr_1_22_sspa%3Fkeywords%3DHeadphones%26qid%3D1563456144%26s%3Dgateway%26sr%3D8-22-spons%26psc%3D1&qualifier=1563456144&id=4705377793737568&widgetName=sp_btf]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Adding the item cart]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Item has been added to cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[INFO:Navigating back to results page]]>
+            </line>
+            <line>
+              <![CDATA[INFO:All the products have been added to cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[*********** End of the Test ***************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.amazon.TestCases.Amazon_AddBestSellersToCartTest@47c62251]" name="TearDown" is-config="true" duration-ms="3101" started-at="2019-07-18T13:23:17Z" finished-at="2019-07-18T13:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazon.TestCases.Amazon_AddBestSellersToCartTest -->
+    </test> <!-- Add To Cart Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

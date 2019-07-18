@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>TestNG:  Add To Cart Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Add To Cart Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 18 18:52:08 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>72 seconds (72398 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.amazon.TestCases.Amazon_AddBestSellersToCartTest.addtoCart()'><b>addtoCart</b><br>Test class: com.amazon.TestCases.Amazon_AddBestSellersToCartTest<br/>
+<a href="#Output-616674002" onClick='toggleBox("Output-616674002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-616674002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-616674002">
+*********** Test Started ***************<br/>
+INFO:Navigating the URL:https://www.amazon.com/<br/>
+INFO:Entering the Keyword:Headphones to search<br/>
+INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/Beats-Solo3-Wireless-Ear-Headphones/dp/B01LWWY3E2/ref=sr_1_3?keywords=Headphones&qid=1563456144&s=gateway&sr=8-3<br/>
+INFO:Adding the item cart<br/>
+INFO:Item has been added to cart successfully<br/>
+INFO:Navigating back to results page<br/>
+INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/OneOdio-Adapter-Free-Headphones-Professional-Telescopic/dp/B01N6ZJH96/ref=sr_1_9?keywords=Headphones&qid=1563456144&s=gateway&sr=8-9<br/>
+INFO:Adding the item cart<br/>
+INFO:Item has been added to cart successfully<br/>
+INFO:Navigating back to results page<br/>
+INFO:Navigating to the product details page of the product with URL:https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_2?ie=UTF8&adId=A03133471DRMLFG6C8OTB&url=%2FOneOdio-Adapter-Free-Headphones-Professional-Telescopic%2Fdp%2FB01N6ZJH96%2Fref%3Dsr_1_22_sspa%3Fkeywords%3DHeadphones%26qid%3D1563456144%26s%3Dgateway%26sr%3D8-22-spons%26psc%3D1&qualifier=1563456144&id=4705377793737568&widgetName=sp_btf<br/>
+INFO:Adding the item cart<br/>
+INFO:Item has been added to cart successfully<br/>
+INFO:Navigating back to results page<br/>
+INFO:All the products have been added to cart successfully<br/>
+*********** End of the Test ***************<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.amazon.TestCases.Amazon_AddBestSellersToCartTest@47c62251</td></tr>
+</table><p>
+</body>
+</html>
