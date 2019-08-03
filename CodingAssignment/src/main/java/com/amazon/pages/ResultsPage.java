@@ -46,25 +46,36 @@ public class ResultsPage
 			urlList.add(url);
 		}
 		
+		System.out.println("NoOf results:"+urlList.size());
+		Set<String> uniqueLinks= new HashSet<String>();
 		//Looping through each products link and add the product to the cart
 		for(int i=0;i<urlList.size();i++)
 		{
 			System.out.println(urlList.get(i));
-			Reporter.log("INFO:"+"Navigating to the product details page of the product with URL:"+urlList.get(i));
-			driver.get(urlList.get(i));
-			Reporter.log("INFO:"+"Adding the item cart");
-			addFlag=prodDetails.clickAddToCart();
-			if(addFlag)
+			if(!uniqueLinks.contains(urlList.get(i)))
 			{
-				Reporter.log("INFO:"+"Item has been added to cart successfully");
-				Reporter.log("INFO:"+"Navigating back to results page");
-				driver.navigate().back();
+				uniqueLinks.add(urlList.get(i));
+				Reporter.log("INFO:"+"Navigating to the product details page of the product with URL:"+urlList.get(i));
+				driver.get(urlList.get(i));
+				Reporter.log("INFO:"+"Adding the item cart");
+				addFlag=prodDetails.clickAddToCart();
+				if(addFlag)
+				{
+					Reporter.log("INFO:"+"Item has been added to cart successfully");
+					Reporter.log("INFO:"+"Navigating back to results page");
+					driver.navigate().back();
+				}
+				else
+				{
+					Reporter.log("ERROR:"+"Item has not been added to cart. Trying to add it again..");
+					i=i-1;
+				}
 			}
 			else
 			{
-				Reporter.log("ERRO:"+"Item has not been added to cart. Trying to add it again..");
-				i=i-1;
+				System.out.println("Product has already been to the cart"+ urlList.get(i));
 			}
+
 			
 		}
 		
